@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio - Atharva Lingote</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      margin-bottom: 5px;
+      font-size: 2rem;
+    }
+    nav {
+      text-align: center;
+      padding: 15px;
+      border-bottom: 1px solid #eee;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #000;
+      display: inline-block;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+    }
+    img {
+      border-radius: 8px;
+      margin: 10px 10px 20px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f9f9f9;
+    }
+    form {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #000;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #333;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      border-top: 1px solid #ddd;
+      padding: 20px;
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Atharva Lingote</h1>
+    <p>Student | Java Full Stack Developer | AI/ML Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="https://github.com/AtharvaLingote" target="_blank">GitHub</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm <strong>Atharva Lingote</strong>, a passionate Computer Science
+      student focusing on Java Full Stack Development and AI/ML. I love building
+      interactive web applications and learning new technologies that push my
+      creative and technical limits.
+    </p>
+    <img src="profile.jpg" alt="Profile Picture" width="180" />
+    <img src="hobby.jpg" alt="Hobby Image" width="180" />
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Some of my key projects include:</p>
+    <ul>
+      <li>Expense Tracker using JavaFX & SQLite</li>
+      <li>MERN Blogging Platform</li>
+      <li>Weather Forecast App with OpenWeather API</li>
+    </ul>
+
+    <h3>Academic Qualifications</h3>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Year</th>
+        <th>Percentage / CGPA</th>
+      </tr>
+      <tr>
+        <td>B.Tech CSE</td>
+        <td>2025</td>
+        <td>8.5 CGPA</td>
+      </tr>
+      <tr>
+        <td>HSC</td>
+        <td>2021</td>
+        <td>90%</td>
+      </tr>
+      <tr>
+        <td>SSC</td>
+        <td>2019</td>
+        <td>92%</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="multimedia">
+    <h2>Multimedia</h2>
+    <p></p>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <br /><br />
+    <video width="400" controls>
+      <source src="video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <br /><br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME"
+      title="YouTube Playlist"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Atharva Lingote — All Rights Reserved
+  </footer>
+</body>
+</html>
